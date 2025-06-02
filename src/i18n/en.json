@@ -1,0 +1,13 @@
+{
+  "welcome": "Welcome to the Dashboard",
+  "description": "This is the main page of your application.",
+  "cta": {
+    "new-insights": "New insights",
+    "description": "Discover new health insights to better understand and enhance your wellness.",
+    "order-dna-test": "Order DNA Test"
+  },
+  "theme": {
+    "switch-to-dark": "Switch to Dark",
+    "switch-to-light": "Switch to Light"
+  }
+}

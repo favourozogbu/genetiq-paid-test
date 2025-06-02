@@ -1,0 +1,14 @@
+{
+  "welcome": "Bienvenue au tableau de bord",
+  "description": "Ceci est la page principale de votre application.",
+  "cta": {
+    "new-insights": "Nouvelles idées",
+    "description": "Découvrez de nouvelles informations sur la santé pour mieux comprendre et améliorer votre bien-être.",
+    "order-dna-test": "Commander un test ADN"
+  },
+  "theme": {
+  "switch-to-dark": "Passer en mode sombre",
+  "switch-to-light": "Passer en mode clair"
+}
+}
+

@@ -135,3 +135,99 @@
 		opacity: 1;
 	}
 }
+
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: inherit; // This ensures select and button inherit the same font
+
+  select, button {
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+	font-family: inherit;
+  }
+
+  .light & button {
+    background-color: white;
+    color: black;
+  }
+
+  .dark & button {
+    background-color: black;
+    color: white;
+  }
+}
+
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: flex-end;
+  align-items: center;
+
+  select, button {
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+.dark .controls select,
+.dark .controls button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Enhance containers and cards to ensure proper visibility */
+.light .card, .light .section, .light .panel {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.dark .card, .dark .section, .dark .panel {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+/* Override backgrounds to ensure text visibility */
+.light .text-box, .light .info {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark .text-box, .dark .info {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
